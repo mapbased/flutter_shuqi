@@ -17,6 +17,7 @@ class HomeBanner extends StatelessWidget {
 
     return Container(
       color: Colors.white,
+
       child: CarouselSlider(
         items: carouselInfos.map((info) {
           return Builder(
